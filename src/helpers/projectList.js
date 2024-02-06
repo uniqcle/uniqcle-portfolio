@@ -1,0 +1,185 @@
+
+const projects = [
+  //bitrix
+  {
+    id: 1,
+    best: true,
+    title: "Wholesale online store.",
+    website: "https://www.sibagrotrade.com/",
+    filter: "bitrix",
+    skills: ["php, javascript, jQuery, css, html"],
+    img: '/bitrix/sibagro.png',
+    gitHubLink: "",
+  },
+    {
+    id: 2,
+    best: false,
+    title: "Construction Materials Online.",
+    website: "https://www.sbiznes.ru/",
+    filter: "bitrix",
+    skills: ["php, javascript, jQuery, css, html"],
+    img: '/bitrix/sbiznes.png',
+    gitHubLink: "",
+  },
+      {
+    id: 3,
+    best: false,
+    title: "Hardware & Building Supplies.",
+    website: "https://promeco.ru/",
+    filter: "bitrix",
+    skills: ["php, javascript, jQuery, css, html"],
+    img: '/bitrix/promeco.png',
+    gitHubLink: "",
+  },
+        {
+    id: 4,
+    best: true,
+    title: "Pet Supplies & Accessories. Online store",
+    website: "https://zoosat.ru/",
+    filter: "bitrix",
+    skills: ["php, javascript, jQuery, css, html"],
+    img: '/bitrix/zoosat.png',
+    gitHubLink: "",
+  },
+
+
+  //javascript
+      {
+    id: 5,
+    best: true,
+    title: "Real Estate, Apartments for Sale.",
+    website: "",
+    filter: "js",
+    skills:["javascript, css, html"],
+    img: '/js/apartments.png',
+    gitHubLink: "https://github.com/uniqcle/apartments",
+  },
+     {
+    id: 6,
+    best: true,
+    title: "Portrait on Canvas. Landing Page",
+    website: "https://uniqcle.github.io/petrproject2/src/index.html",
+    filter: "js",
+    skills: ["javascript, css, html"],
+    img: '/js/portrait-canvas.png',
+    gitHubLink: "https://github.com/uniqcle/petrproject2",
+  },
+        {
+    id: 7,
+    best: false,
+    title: "Little Free eBook Library.",
+    website: "",
+    filter: "js",
+    skills: ["javascript, css, html"],
+    img: '/js/book-library.png',
+    gitHubLink: "https://github.com/uniqcle/book-app",
+  },
+          {
+    id: 8,
+    best: false,
+    title: "Budget Calculator: Free & Easy.",
+    website: "",
+    filter: "js",
+    skills: ["javascript, css, html"],
+    img: '/js/budget-calculator.png',
+    gitHubLink: "https://github.com/uniqcle/budget-calculator",
+  },
+   {
+    id: 9,
+    best: false,
+    title: "Construction Landing Page.",
+    website: "",
+    filter: "js",
+    skills: ["javascript, css, html"],
+    img: '/js/construction-lp.png',
+    gitHubLink: "https://github.com/uniqcle/petrlanding",
+  },
+     {
+    id: 10,
+    best: false,
+    title: "HTML Quiz: Questions With Answers",
+    website: "",
+    filter: "js",
+    skills: ["javascript, css, html"],
+    img: '/js/html-quiz.png',
+    gitHubLink: "https://github.com/uniqcle/qwiz",
+  },
+
+
+  
+
+  // react
+{
+    id: 11,
+    best: true,
+    title: "Customer Relationship Management (CRM)",
+    website: "https://uniqcle.github.io/crm-react-v2/",
+    filter: "react",
+    skills: ["react"],
+    img: '/react/crm.png',
+    gitHubLink: "https://github.com/uniqcle/crm-reactv2",
+  },
+  {
+    id: 12,
+    best: false,
+    title: "Shopping Cart",
+    website: "https://uniqcle.github.io/basket-front/",
+    filter: "react",
+    skills: ["react"],
+    img: '/react/shopping-cart.png',
+    gitHubLink: "https://github.com/uniqcle/react-basket",
+  },
+    {
+    id: 13,
+    best: false,
+    title: "Employee Accounting App",
+    website: "https://uniqcle.github.io/basket-front/",
+    filter: "react",
+    skills: ["react"],
+    img: '/react/employee-accounting.png',
+    gitHubLink: "https://github.com/uniqcle/react-employee",
+  },
+
+  //html css
+      {
+    id: 14,
+    best: false,
+    title: "Sightseeing tours to Altai Landing",
+    website: "https://uniqcle.github.io/mntn/",
+    filter: "htmlcss",
+    skills: ["html", "css", "javascript"]
+    img: '/htmlcss/mntn.png',
+    gitHubLink: "https://github.com/uniqcle/mntn",
+  },
+        {
+    id: 15,
+    best: false,
+    title: "Real Estate Investments Landing",
+    website: "https://uniqcle.github.io/mono/",
+    filter: "htmlcss",
+    skills: ["html", "css", "javascript"]
+    img: '/htmlcss/mono.png',
+    gitHubLink: "",
+  },
+          {
+    id: 16,
+    best: false,
+    title: "Filter on Construction Website",
+    website: "https://uniqcle.github.io/realestate/",
+    filter: "htmlcss",
+    skills: ["html", "css", "javascript"]
+    img: '/htmlcss/realestate.png',
+    gitHubLink: "https://github.com/uniqcle/realestate",
+  },
+            {
+    id: 17,
+    best: false,
+    title: "The Most Engaging Places Landing",
+    website: "https://uniqcle.github.io/turism/",
+    filter: "htmlcss",
+    skills: ["html", "css", "javascript"]
+    img: '/htmlcss/turism.png',
+    gitHubLink: "https://github.com/uniqcle/2rism",
+  },
+
+];
