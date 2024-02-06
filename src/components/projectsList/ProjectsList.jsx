@@ -1,6 +1,8 @@
 import ProjectCard from "../projectCard/ProjectCard";
 
-const ProjectsList = () => {
+const ProjectsList = ({ projects }) => {
+  console.log(projects);
+
   return (
     <>
       <main className="section">
@@ -24,12 +26,9 @@ const ProjectsList = () => {
           </div>
 
           <ul className="projects">
-            <ProjectCard />
-            <ProjectCard />
-            <ProjectCard />
-            <ProjectCard />
-            <ProjectCard />
-            <ProjectCard />
+            {projects.map((project) => {
+              return <ProjectCard key={project.id} project={project} />;
+            })}
           </ul>
         </div>
       </main>

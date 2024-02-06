@@ -1,3 +1,23 @@
+import bitrix01 from "./../imgs/projects/bitrix/sibagro.png";
+import bitrix02 from "./../imgs/projects/bitrix/sbiznes.png";
+import bitrix03 from "./../imgs/projects/bitrix/promeco.png";
+import bitrix04 from "./../imgs/projects/bitrix/zoosat.png";
+
+import js05 from "./../imgs/projects/js/apartments.png";
+import js06 from "./../imgs/projects/js/portrait-canvas.png";
+import js07 from "./../imgs/projects/js/book-library.png";
+import js08 from "./../imgs/projects/js/budget-calculator.png";
+import js09 from "./../imgs/projects/js/construction-lp.png";
+import js10 from "./../imgs/projects/js/html-quiz.png";
+
+import react11 from "./../imgs/projects/react/crm.png";
+import react12 from "./../imgs/projects/react/shopping-cart.png";
+import react13 from "./../imgs/projects/react/employee-accounting.png";
+
+import htmlcss14 from "./../imgs/projects/htmlcss/mntn.png";
+import htmlcss15 from "./../imgs/projects/htmlcss/mono.png";
+import htmlcss16 from "./../imgs/projects/htmlcss/realestate.png";
+import htmlcss117 from "./../imgs/projects/htmlcss/turism.png";
 
 const projectsList = [
   //bitrix
@@ -8,7 +28,7 @@ const projectsList = [
     website: "https://www.sibagrotrade.com/",
     filter: "bitrix",
     skills: ["php, javascript, jQuery, css, html"],
-    img: "/bitrix/sibagro.png",
+    img: bitrix01,
     gitHubLink: "",
   },
   {
@@ -18,7 +38,7 @@ const projectsList = [
     website: "https://www.sbiznes.ru/",
     filter: "bitrix",
     skills: ["php, javascript, jQuery, css, html"],
-    img: "/bitrix/sbiznes.png",
+    img: bitrix02,
     gitHubLink: "",
   },
   {
@@ -28,7 +48,7 @@ const projectsList = [
     website: "https://promeco.ru/",
     filter: "bitrix",
     skills: ["php, javascript, jQuery, css, html"],
-    img: "/bitrix/promeco.png",
+    img: bitrix03,
     gitHubLink: "",
   },
   {
@@ -38,7 +58,7 @@ const projectsList = [
     website: "https://zoosat.ru/",
     filter: "bitrix",
     skills: ["php, javascript, jQuery, css, html"],
-    img: "/bitrix/zoosat.png",
+    img: bitrix04,
     gitHubLink: "",
   },
 
@@ -49,7 +69,7 @@ const projectsList = [
     website: "",
     filter: "js",
     skills: ["javascript, css, html"],
-    img: "/js/apartments.png",
+    img: js05,
     gitHubLink: "https://github.com/uniqcle/apartments",
   },
   {
@@ -59,7 +79,7 @@ const projectsList = [
     website: "https://uniqcle.github.io/petrproject2/src/index.html",
     filter: "js",
     skills: ["javascript, css, html"],
-    img: "/js/portrait-canvas.png",
+    img: js06,
     gitHubLink: "https://github.com/uniqcle/petrproject2",
   },
   {
@@ -69,7 +89,7 @@ const projectsList = [
     website: "",
     filter: "js",
     skills: ["javascript, css, html"],
-    img: "/js/book-library.png",
+    img: js07,
     gitHubLink: "https://github.com/uniqcle/book-app",
   },
   {
@@ -79,7 +99,7 @@ const projectsList = [
     website: "",
     filter: "js",
     skills: ["javascript, css, html"],
-    img: "/js/budget-calculator.png",
+    img: js08,
     gitHubLink: "https://github.com/uniqcle/budget-calculator",
   },
   {
@@ -89,7 +109,7 @@ const projectsList = [
     website: "",
     filter: "js",
     skills: ["javascript, css, html"],
-    img: "/js/construction-lp.png",
+    img: js09,
     gitHubLink: "https://github.com/uniqcle/petrlanding",
   },
   {
@@ -99,7 +119,7 @@ const projectsList = [
     website: "",
     filter: "js",
     skills: ["javascript, css, html"],
-    img: "/js/html-quiz.png",
+    img: js10,
     gitHubLink: "https://github.com/uniqcle/qwiz",
   },
   {
@@ -109,7 +129,7 @@ const projectsList = [
     website: "https://uniqcle.github.io/crm-react-v2/",
     filter: "react",
     skills: ["react"],
-    img: "/react/crm.png",
+    img: react11,
     gitHubLink: "https://github.com/uniqcle/crm-reactv2",
   },
   {
@@ -119,7 +139,7 @@ const projectsList = [
     website: "https://uniqcle.github.io/basket-front/",
     filter: "react",
     skills: ["react"],
-    img: "/react/shopping-cart.png",
+    img: react12,
     gitHubLink: "https://github.com/uniqcle/react-basket",
   },
   {
@@ -129,7 +149,7 @@ const projectsList = [
     website: "https://uniqcle.github.io/basket-front/",
     filter: "react",
     skills: ["react"],
-    img: "/react/employee-accounting.png",
+    img: react13,
     gitHubLink: "https://github.com/uniqcle/react-employee",
   },
 
@@ -141,7 +161,7 @@ const projectsList = [
     website: "https://uniqcle.github.io/mntn/",
     filter: "htmlcss",
     skills: ["html", "css", "javascript"],
-    img: "/htmlcss/mntn.png",
+    img: htmlcss14,
     gitHubLink: "https://github.com/uniqcle/mntn",
   },
   {
@@ -151,7 +171,7 @@ const projectsList = [
     website: "https://uniqcle.github.io/mono/",
     filter: "htmlcss",
     skills: ["html", "css", "javascript"],
-    img: "/htmlcss/mono.png",
+    img: htmlcss15,
     gitHubLink: "",
   },
   {
@@ -161,7 +181,7 @@ const projectsList = [
     website: "https://uniqcle.github.io/realestate/",
     filter: "htmlcss",
     skills: ["html", "css", "javascript"],
-    img: "/htmlcss/realestate.png",
+    img: htmlcss16,
     gitHubLink: "https://github.com/uniqcle/realestate",
   },
   {
@@ -171,7 +191,7 @@ const projectsList = [
     website: "https://uniqcle.github.io/turism/",
     filter: "htmlcss",
     skills: ["html", "css", "javascript"],
-    img: "/htmlcss/turism.png",
+    img: htmlcss117,
     gitHubLink: "https://github.com/uniqcle/2rism",
   },
 ];

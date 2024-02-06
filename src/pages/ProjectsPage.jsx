@@ -1,9 +1,10 @@
 import ProjectsList from "../components/projectsList/ProjectsList";
+import { projectsList } from "../helpers/projectList";
 
 const ProjectsPage = () => {
   return (
     <>
-      <ProjectsList />
+      <ProjectsList projects={projectsList} />
     </>
   );
 };

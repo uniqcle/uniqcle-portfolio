@@ -1,16 +1,14 @@
 import "./style.css";
 
-const ProjectCard = () => {
+const ProjectCard = ({ project }) => {
+  console.log(project);
+
   return (
     <>
       <li className="project">
         <a href="#">
-          <img
-            src="./imgs/projects/01.jpg"
-            className="project__img"
-            alt="project img"
-          />
-          <h3 className="project__title">Gaming streaming portal</h3>
+          <img src={project.img} className="project__img" alt={project.title} />
+          <h3 className="project__title">{project.title}</h3>
         </a>
       </li>
     </>
